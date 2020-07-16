@@ -60,7 +60,6 @@ int main()
   cout << test_scores.at(2) << endl;
 
   //this what makes vectors dynamic
-
   cout << "\n Enter a test score to add to the vector:";
 
   int score_to_add{0}; //regular int
