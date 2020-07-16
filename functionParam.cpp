@@ -16,9 +16,9 @@ int getInput() //return integar
   return input;
 };
 
-void processSelection(int input)
+void processSelection(int selection)
 {
-  switch (input)
+  switch (selection)
   {
   case 1:
     cout << "Searching..." << endl;
@@ -36,9 +36,13 @@ void processSelection(int input)
 
 int main()
 {
+  // showMenu();
+  // int input = getInput();
+  // processSelection(input);
+
+  //this works as well
   showMenu();
-  int input = getInput();
-  processSelection(input);
+  processSelection(getInput());
 
   return 0;
 }
